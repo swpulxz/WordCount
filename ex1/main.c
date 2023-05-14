@@ -50,10 +50,10 @@ int main(int argc, char *argv[]) {
 
     if (strcmp(type, "-c") == 0) {
         count = sumCharacter(fp);
-        printf("×Ö·ûÊı: %d\n", count);
+        printf("å­—ç¬¦æ•°: %d\n", count);
     } else if (strcmp(type, "-w") == 0) {
         count = sumWord(fp);
-        printf("µ¥´ÊÊı: %d\n", count);
+        printf("å•è¯æ•°: %d\n", count);
     }
 
     fclose(fp);
